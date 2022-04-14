@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-right: 12vw;
+    padding-left: 12vw;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    display: inline;
+}
