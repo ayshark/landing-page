@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 #header {
@@ -30,24 +30,19 @@ ul {
 }
 
 #one {
+    /* width: 100vw; */
     display: flex;
     justify-content: center;
-    /* padding-right: 12vw; */
-    /* padding-left: 12vw; */
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
     padding: 90px 12vw 90px;
 }
 
-.one-right {
-    width: 50%;
-    padding-left: 20px;
-}
 
-#hero-text, h2 {
+h2{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 1000;
     color: #f9faf8;
 }
 
@@ -55,6 +50,7 @@ ul {
     height: 300px;
     width: 400px;
     margin-top: 30px;
+    padding-left: 20px;
 }
 
 button {
@@ -63,4 +59,42 @@ button {
     padding: 5px 18px;
     border-radius: 10px;
     border: 1px solid #3882f6;
+}
+
+#two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 9vw;
+}
+
+.two-random {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px auto;
+
+}
+
+.random-box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.random-info {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1;
+    margin: auto 23px;
+}
+
+.two-header {
+    color: #1f2937;
+    font-size: 41px;
+    font-weight: 900;
 }
